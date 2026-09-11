@@ -1,0 +1,4 @@
+interface:
+  display_name: "中文网页排版"
+  short_description: "处理中文断行、混排、字体与组件文字，并用真实长度内容验证响应式效果"
+  default_prompt: "使用 $chinese-web-typography 检查并改进当前页面的中文排版，保留原有内容和风格，用真实场景及长短边界内容验证渲染效果。"

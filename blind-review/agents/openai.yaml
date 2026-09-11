@@ -1,0 +1,4 @@
+interface:
+  display_name: "独立盲审"
+  short_description: "以新上下文和实际证据检查成果，聚焦重要偏差并限制重复审查"
+  default_prompt: "使用 $blind-review 独立盲审当前成果，依据原始目标与实际证据检查重要问题，说明验证范围并避免无休止审查。"

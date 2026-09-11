@@ -1,0 +1,16 @@
+{
+  "name": "chinese-web-typography-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Optional browser regression tests for the Chinese web typography skill",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node typography-lab/verify.cjs",
+    "test:baseline": "node typography-lab/verify.cjs --baseline-only"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

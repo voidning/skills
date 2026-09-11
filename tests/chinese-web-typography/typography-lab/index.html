@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>中文排版试验页</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --page: #f6f7f2;
+      --surface: #ffffff;
+      --text: #263630;
+      --muted: #526456;
+      --link: #215e45;
+      --action: #245d43;
+      --border: #ccd4ca;
+      --card-border: #d6ddd1;
+      --field-border: #78917f;
+      --error: #a52f27;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+
+    body {
+      margin: 0;
+      background: var(--page);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans CJK SC", "Source Han Sans SC", "Microsoft YaHei", sans-serif;
+      font-size: 1rem;
+      line-height: 1.75;
+    }
+
+    main {
+      inline-size: min(100%, 70rem);
+      margin-inline: auto;
+      padding: clamp(1.5rem, 5vw, 3rem) clamp(1rem, 4vw, 2rem);
+    }
+
+    header {
+      margin-block-end: 2rem;
+      border-block-end: 1px solid var(--border);
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin-block: 0.5em;
+      line-height: 1.35;
+      font-weight: 650;
+      line-break: strict;
+      overflow-wrap: break-word;
+    }
+
+    h1 {
+      font-size: clamp(1.75rem, 5vw, 2rem);
+      text-wrap: balance;
+    }
+
+    h2 {
+      font-size: clamp(1.375rem, 4vw, 1.625rem);
+    }
+
+    h3 {
+      font-size: clamp(1.125rem, 3vw, 1.25rem);
+    }
+
+    p {
+      margin-block: 0.75em;
+    }
+
+    section {
+      padding-block: clamp(1.5rem, 4vw, 2rem);
+      border-block-end: 1px solid var(--border);
+    }
+
+    .eyebrow {
+      color: var(--muted);
+      font-size: 0.8125rem;
+      letter-spacing: 0.04em;
+    }
+
+    a {
+      color: var(--link);
+    }
+
+    .hero-title {
+      max-inline-size: 14em;
+      font-size: clamp(2rem, 7vw, 2.625rem);
+      line-height: 1.3;
+      text-wrap: balance;
+    }
+
+    .title-phrase {
+      display: inline-block;
+      max-inline-size: 100%;
+      vertical-align: top;
+      text-wrap: wrap;
+    }
+
+    .article {
+      max-inline-size: 44rem;
+      text-align: start;
+      word-break: normal;
+      line-break: strict;
+      overflow-wrap: break-word;
+    }
+
+    .token {
+      overflow-wrap: anywhere;
+      word-break: normal;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.25rem;
+    }
+
+    .card {
+      min-inline-size: 0;
+      padding: 1.25rem;
+      border: 1px solid var(--card-border);
+      background: var(--surface);
+    }
+
+    .card h3 {
+      margin-block-start: 0;
+    }
+
+    .price,
+    .amount {
+      font-variant-numeric: tabular-nums;
+    }
+
+    #table-region {
+      max-inline-size: 100%;
+      overflow-x: auto;
+      overscroll-behavior-inline: contain;
+    }
+
+    #table-region:focus-visible {
+      outline: 3px solid var(--action);
+      outline: 3px solid color-mix(in srgb, var(--action) 55%, white);
+      outline-offset: 3px;
+    }
+
+    table {
+      inline-size: 100%;
+      min-inline-size: 42rem;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 0.75rem;
+      border-block-end: 1px solid var(--card-border);
+      text-align: start;
+      vertical-align: top;
+      word-break: normal;
+    }
+
+    th {
+      font-weight: 650;
+    }
+
+    th.amount,
+    td.amount {
+      text-align: end;
+      white-space: nowrap;
+    }
+
+    form {
+      max-inline-size: 44rem;
+    }
+
+    label {
+      display: block;
+      margin-block-end: 0.375rem;
+    }
+
+    input {
+      inline-size: 100%;
+      min-block-size: 2.75rem;
+      padding: 0.625rem;
+      border: 1px solid var(--field-border);
+      border-radius: 0;
+      background: var(--surface);
+      color: inherit;
+      font: inherit;
+    }
+
+    .error {
+      color: var(--error);
+    }
+
+    button {
+      min-block-size: 2.75rem;
+      max-inline-size: 100%;
+      padding: 0.625rem 1.125rem;
+      border: 0;
+      border-radius: 0;
+      background: var(--action);
+      color: #ffffff;
+      font: inherit;
+      line-height: 1.45;
+      white-space: normal;
+      overflow-wrap: break-word;
+      cursor: pointer;
+    }
+
+    input:focus-visible,
+    button:focus-visible,
+    a:focus-visible {
+      outline: 3px solid var(--action);
+      outline: 3px solid color-mix(in srgb, var(--action) 55%, white);
+      outline-offset: 3px;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    footer {
+      padding-block-start: 1.5rem;
+      color: var(--muted);
+      font-size: 0.875rem;
+    }
+
+    @media (max-width: 48rem) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (forced-colors: active) {
+      input,
+      button,
+      .card {
+        border: 1px solid CanvasText;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">中文网页排版 · 场景实验</p>
+      <h1>让真实内容，经得起变化。</h1>
+      <p>来自真实使用场景的模拟数据；不代表真实订单或客户。</p>
+    </header>
+
+    <section id="hero">
+      <p class="eyebrow">01 / 叙事标题</p>
+      <h2 class="hero-title" id="hero-title"><span class="title-phrase">回信里，</span><span class="title-phrase">还有一个数字。</span></h2>
+      <p>“1000 到 1099 都收到了，接下来从 1100 继续吧。”</p>
+      <h3 id="notice-title">关于调整国庆假期期间跨区域订单配送与售后服务安排的通知</h3>
+    </section>
+
+    <section id="article">
+      <p class="eyebrow">02 / 正文与中英混排</p>
+      <h2>提交前，再核对一次</h2>
+      <div class="article">
+        <p id="punctuation">她说：“请在提交前核对《服务协议》（2026 年修订版），确认后再继续。”</p>
+        <p>使用 OpenType 字体查看订单详情。附件大小为 1,024 MB，成功率为 99.95%。英文名 TypographyVerificationService 与中文说明应当保持清楚的阅读节奏。</p>
+        <p id="url" class="token">https://example.com/orders/2026/09/11/ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789?source=typography-test</p>
+        <p id="traditional" lang="zh-TW">訂單已成立，請於付款前確認「配送地址」與聯絡資訊。</p>
+        <p id="glyphs">姓名：𠮷野；地名：鄠邑；状态：已确认 ✅</p>
+      </div>
+    </section>
+
+    <section id="products">
+      <p class="eyebrow">03 / 商品与长短标题</p>
+      <h2>随行好物</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>轻量通勤双肩包 16 英寸电脑款（雾灰色／升级防泼水面料）</h3>
+          <p>雨天通勤，也能从容收纳。</p>
+          <p class="price">¥1,299.00</p>
+          <button type="button">查看商品详情</button>
+        </article>
+        <article class="card">
+          <h3>随行杯</h3>
+          <p>500 mL · 本白色</p>
+          <p class="price">¥89.00</p>
+          <button type="button">查看商品详情</button>
+        </article>
+        <article class="card">
+          <h3>可折叠旅行收纳袋套装（含衣物袋、洗漱袋与数码配件袋）</h3>
+          <p>为不同长度的名称留出空间。</p>
+          <p class="price">¥239.00</p>
+          <button type="button">查看商品详情</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="orders">
+      <p class="eyebrow">04 / 订单数据</p>
+      <h2>待处理订单</h2>
+      <div id="table-region" role="region" aria-label="待处理订单表格，可横向滚动" tabindex="0">
+        <table>
+          <thead>
+            <tr><th>机构</th><th>订单号</th><th class="amount">金额</th><th>状态</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>杭州云栖数字文化创意与城市公共服务联合研究中心（模拟）</td><td class="token">CN-20260911-AFTERSALES-0000000000000000123456789</td><td class="amount">¥1,234,567.89</td><td>待确认</td></tr>
+            <tr><td>山间工作室（模拟）</td><td>CN-20260911-002</td><td class="amount">—</td><td>暂无数据</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="form">
+      <p class="eyebrow">05 / 表单与状态文案</p>
+      <h2>修改收件信息</h2>
+      <form onsubmit="event.preventDefault()">
+        <label for="address">收件地址（街道、门牌号及楼层）</label>
+        <input id="address" value="杭州市西湖区" aria-describedby="address-error" aria-invalid="true">
+        <p class="error" id="address-error">收件地址不完整，请补充街道、门牌号及所在楼层；如无门牌号，请填写附近可识别的地标。</p>
+        <button id="submit-button" type="submit">保存修改并重新发送审核申请</button>
+      </form>
+    </section>
+
+    <section id="disclosure">
+      <p class="eyebrow">06 / 完整内容</p>
+      <h2>配送说明</h2>
+      <p class="details-copy" id="delivery-copy">商品预计于付款后 3 个工作日内发出。遇节假日、极端天气或偏远地区配送调整时，我们会在订单页面更新预计送达时间。请保持联系电话畅通，并在签收前核对外包装与商品数量。如需修改地址，请在仓库开始处理前提交申请。</p>
+    </section>
+
+    <footer>测试内容为虚构样例。标题“回信里，还有一个数字。”来自用户提供的截图。</footer>
+  </main>
+</body>
+</html>

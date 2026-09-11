@@ -1,0 +1,6 @@
+interface:
+  display_name: "Distill AGENTS"
+  short_description: "在独立任务中读取项目对话，提炼并去重项目与全局 AGENTS.md 长期规则"
+  default_prompt: "使用 $distill-agents-md 读取指定项目任务的相关对话，在独立整理任务中提出精简的 AGENTS.md 改动候选。"
+policy:
+  allow_implicit_invocation: true

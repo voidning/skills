@@ -1,0 +1,7 @@
+# Normalize text files across platforms.
+* text=auto
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

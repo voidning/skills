@@ -1,0 +1,29 @@
+# Operating system files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local credentials and environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Temporary files
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+
+# Optional skill development tests
+node_modules/
+tests/**/artifacts/

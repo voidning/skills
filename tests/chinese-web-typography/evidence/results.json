@@ -1,0 +1,1545 @@
+{
+  "browser": "151.0.7922.34",
+  "timestamp": "2026-09-11T07:54:18.469Z",
+  "method": "Chromium headless; local file; text200 changes root font size, NOT real browser zoom; serif swaps system font, NOT network-font testing.",
+  "results": [
+    {
+      "config": {
+        "name": "before-320",
+        "file": "before.html",
+        "width": 320,
+        "baseline": true
+      },
+      "assertions": {
+        "noPageOverflow": false,
+        "noClippedText": false,
+        "chineseLanguage": false,
+        "punctuationSample": true,
+        "originalUrlPreserved": true,
+        "originalTokenPreserved": true,
+        "missingAmountNotZero": true,
+        "noRuntimeErrors": true
+      },
+      "pass": false,
+      "metrics": {
+        "viewport": 320,
+        "scrollWidth": 1162,
+        "rootFontSize": "16px",
+        "lang": "en",
+        "clipping": [
+          {
+            "text": "轻量通勤双肩包 16 英寸电脑款（雾灰色／升级防泼水面料）",
+            "reason": "vertical clipping"
+          },
+          {
+            "text": "轻量通勤双肩包 16 英寸电脑款（雾灰色／升级防泼水面料）",
+            "reason": "text outside element vertically"
+          },
+          {
+            "text": "可折叠旅行收纳袋套装（含衣物袋、洗漱袋与数码配件袋）",
+            "reason": "vertical clipping"
+          },
+          {
+            "text": "可折叠旅行收纳袋套装（含衣物袋、洗漱袋与数码配件袋）",
+            "reason": "text outside element vertically"
+          },
+          {
+            "text": "收件地址不完整，请补充街道、门牌号及所在楼层；如无门牌号，请填写附近可识别的地标。",
+            "reason": "vertical clipping"
+          },
+          {
+            "text": "收件地址不完整，请补充街道、门牌号及所在楼层；如无门牌号，请填写附近可识别的地标。",
+            "reason": "text outside element vertically"
+          },
+          {
+            "text": "商品预计于付款后 3 个工作日内发出。遇节假日、极端天气或偏远地区配送调整时，我们会在订单页面更新预计送达时间。请保持联",
+            "reason": "vertical clipping"
+          },
+          {
+            "text": "商品预计于付款后 3 个工作日内发出。遇节假日、极端天气或偏远地区配送调整时，我们会在订单页面更新预计送达时间。请保持联",
+            "reason": "text outside element vertically"
+          }
+        ],
+        "titles": [
+          {
+            "id": null,
+            "text": "让真实内容，经得起变化。",
+            "lines": [
+              "让真实内容，经得",
+              "起变化。"
+            ]
+          },
+          {
+            "id": "hero-title",
+            "text": "回信里，还有一个数字。",
+            "lines": [
+              "回信里，还有",
+              "一个数字。"
+            ]
+          },
+          {
+            "id": "notice-title",
+            "text": "关于调整国庆假期期间跨区域订单配送与售后服务安排的通知",
+            "lines": [
+              "关于调整国庆假期期间跨区",
+              "域订单配送与售后服务安排",
+              "的通知"
+            ]
+          },
+          {
+            "id": null,
+            "text": "提交前，再核对一次",
+            "lines": [
+              "提交前，再核对一次"
+            ]
+          },
+          {
+            "id": null,
+            "text": "随行好物",
+            "lines": [
+              "随行好物"
+            ]
+          },
+          {
+            "id": null,
+            "text": "轻量通勤双肩包 16 英寸电脑款（雾灰色／升级防泼水面料）",
+            "lines": [
+              "轻量通勤双肩",
+              "包 16 英寸电",
+              "脑款（雾灰色",
+              "／升级防泼水",
+              "面料）"
+            ]
+          },
+          {
+            "id": null,
+            "text": "随行杯",
+            "lines": [
+              "随行杯"
+            ]
+          },
+          {
+            "id": null,
+            "text": "可折叠旅行收纳袋套装（含衣物袋、洗漱袋与数码配件袋）",
+            "lines": [
+              "可折叠旅行收",
+              "纳袋套装（含",
+              "衣物袋、洗漱",
+              "袋与数码配件",
+              "袋）"
+            ]
+          },
+          {
+            "id": null,
+            "text": "待处理订单",
+            "lines": [
+              "待处理订单"
+            ]
+          },
+          {
+            "id": null,
+            "text": "修改收件信息",
+            "lines": [
+              "修改收件信息"
+            ]
+          },
+          {
+            "id": null,
+            "text": "配送说明",
+            "lines": [
+              "配送说明"
+            ]
+          }
+        ],
+        "punctuationLines": [
+          "她说：“请在提交前核对《服务协议》",
+          "（2026 年修订版），确认后再继续。”"
+        ],
+        "punctuationProblems": [],
+        "table": {
+          "width": 256,
+          "scrollWidth": 1130,
+          "overflowX": "visible"
+        },
+        "url": "https://example.com/orders/2026/09/11/ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789?source=typography-test",
+        "token": "CN-20260911-AFTERSALES-0000000000000000123456789",
+        "missingAmount": "—",
+        "features": {
+          "balance": true,
+          "pretty": true
+        }
+      },
+      "keyboardChecks": null,
+      "errors": []
+    },
+    {
+      "config": {
+        "name": "before-1440",
+        "file": "before.html",
+        "width": 1440,
+        "baseline": true
+      },
+      "assertions": {
+        "noPageOverflow": true,
+        "noClippedText": false,
+        "chineseLanguage": false,
+        "punctuationSample": true,
+        "originalUrlPreserved": true,
+        "originalTokenPreserved": true,
+        "missingAmountNotZero": true,
+        "noRuntimeErrors": true
+      },
+      "pass": false,
+      "metrics": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "rootFontSize": "16px",
+        "lang": "en",
+        "clipping": [
+          {
+            "text": "轻量通勤双肩包 16 英寸电脑款（雾灰色／升级防泼水面料）",
+            "reason": "vertical clipping"
+          },
+          {
+            "text": "轻量通勤双肩包 16 英寸电脑款（雾灰色／升级防泼水面料）",
+            "reason": "text outside element vertically"
+          },
+          {
+            "text": "可折叠旅行收纳袋套装（含衣物袋、洗漱袋与数码配件袋）",
+            "reason": "vertical clipping"
+          },
+          {
+            "text": "可折叠旅行收纳袋套装（含衣物袋、洗漱袋与数码配件袋）",
+            "reason": "text outside element vertically"
+          },
+          {
+            "text": "商品预计于付款后 3 个工作日内发出。遇节假日、极端天气或偏远地区配送调整时，我们会在订单页面更新预计送达时间。请保持联",
+            "reason": "vertical clipping"
+          }
+        ],
+        "titles": [
+          {
+            "id": null,
+            "text": "让真实内容，经得起变化。",
+            "lines": [
+              "让真实内容，经得起变化。"
+            ]
+          },
+          {
+            "id": "hero-title",
+            "text": "回信里，还有一个数字。",
+            "lines": [
+              "回信里，还有",
+              "一个数字。"
+            ]
+          },
+          {
+            "id": "notice-title",
+            "text": "关于调整国庆假期期间跨区域订单配送与售后服务安排的通知",
+            "lines": [
+              "关于调整国庆假期期间跨区域订单配送与售后服务安排的通知"
+            ]
+          },
+          {
+            "id": null,
+            "text": "提交前，再核对一次",
+            "lines": [
+              "提交前，再核对一次"
+            ]
+          },
+          {
+            "id": null,
+            "text": "随行好物",
+            "lines": [
+              "随行好物"
+            ]
+          },
+          {
+            "id": null,
+            "text": "轻量通勤双肩包 16 英寸电脑款（雾灰色／升级防泼水面料）",
+            "lines": [
+              "轻量通勤双肩包 16 英寸电脑款",
+              "（雾灰色／升级防泼水面料）"
+            ]
+          },
+          {
+            "id": null,
+            "text": "随行杯",
+            "lines": [
+              "随行杯"
+            ]
+          },
+          {
+            "id": null,
+            "text": "可折叠旅行收纳袋套装（含衣物袋、洗漱袋与数码配件袋）",
+            "lines": [
+              "可折叠旅行收纳袋套装（含衣物",
+              "袋、洗漱袋与数码配件袋）"
+            ]
+          },
+          {
+            "id": null,
+            "text": "待处理订单",
+            "lines": [
+              "待处理订单"
+            ]
+          },
+          {
+            "id": null,
+            "text": "修改收件信息",
+            "lines": [
+              "修改收件信息"
+            ]
+          },
+          {
+            "id": null,
+            "text": "配送说明",
+            "lines": [
+              "配送说明"
+            ]
+          }
+        ],
+        "punctuationLines": [
+          "她说：“请在提交前核对《服务协议》（2026 年修订版），确认后再继续。”"
+        ],
+        "punctuationProblems": [],
+        "table": {
+          "width": 1056,
+          "scrollWidth": 1130,
+          "overflowX": "visible"
+        },
+        "url": "https://example.com/orders/2026/09/11/ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789?source=typography-test",
+        "token": "CN-20260911-AFTERSALES-0000000000000000123456789",
+        "missingAmount": "—",
+        "features": {
+          "balance": true,
+          "pretty": true
+        }
+      },
+      "keyboardChecks": null,
+      "errors": []
+    },
+    {
+      "config": {
+        "name": "after-320",
+        "file": "index.html",
+        "width": 320
+      },
+      "assertions": {
+        "noPageOverflow": true,
+        "noClippedText": true,
+        "chineseLanguage": true,
+        "punctuationSample": true,
+        "originalUrlPreserved": true,
+        "originalTokenPreserved": true,
+        "missingAmountNotZero": true,
+        "noRuntimeErrors": true,
+        "keyboardAccess": true,
+        "titleSemanticGrouping": true
+      },
+      "pass": true,
+      "metrics": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "rootFontSize": "16px",
+        "lang": "zh-CN",
+        "clipping": [],
+        "titles": [
+          {
+            "id": null,
+            "text": "让真实内容，经得起变化。",
+            "lines": [
+              "让真实内容，",
+              "经得起变化。"
+            ]
+          },
+          {
+            "id": "hero-title",
+            "text": "回信里，还有一个数字。",
+            "lines": [
+              "回信里，",
+              "还有一个数字。"
+            ]
+          },
+          {
+            "id": "notice-title",
+            "text": "关于调整国庆假期期间跨区域订单配送与售后服务安排的通知",
+            "lines": [
+              "关于调整国庆假期期间跨区域订单配",
+              "送与售后服务安排的通知"
+            ]
+          },
+          {
+            "id": null,
+            "text": "提交前，再核对一次",
+            "lines": [
+              "提交前，再核对一次"
+            ]
+          },
+          {
+            "id": null,
+            "text": "随行好物",
+            "lines": [
+              "随行好物"
+            ]
+          },
+          {
+            "id": null,
+            "text": "轻量通勤双肩包 16 英寸电脑款（雾灰色／升级防泼水面料）",
+            "lines": [
+              "轻量通勤双肩包 16 英寸电脑款",
+              "（雾灰色／升级防泼水面料）"
+            ]
+          },
+          {
+            "id": null,
+            "text": "随行杯",
+            "lines": [
+              "随行杯"
+            ]
+          },
+          {
+            "id": null,
+            "text": "可折叠旅行收纳袋套装（含衣物袋、洗漱袋与数码配件袋）",
+            "lines": [
+              "可折叠旅行收纳袋套装（含衣",
+              "物袋、洗漱袋与数码配件袋）"
+            ]
+          },
+          {
+            "id": null,
+            "text": "待处理订单",
+            "lines": [
+              "待处理订单"
+            ]
+          },
+          {
+            "id": null,
+            "text": "修改收件信息",
+            "lines": [
+              "修改收件信息"
+            ]
+          },
+          {
+            "id": null,
+            "text": "配送说明",
+            "lines": [
+              "配送说明"
+            ]
+          }
+        ],
+        "punctuationLines": [
+          "她说：“请在提交前核对《服务协议》",
+          "（2026 年修订版），确认后再继续。”"
+        ],
+        "punctuationProblems": [],
+        "table": {
+          "width": 288,
+          "scrollWidth": 672,
+          "overflowX": "auto"
+        },
+        "url": "https://example.com/orders/2026/09/11/ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789?source=typography-test",
+        "token": "CN-20260911-AFTERSALES-0000000000000000123456789",
+        "missingAmount": "—",
+        "features": {
+          "balance": true,
+          "pretty": true
+        }
+      },
+      "keyboardChecks": {
+        "tableFocused": true,
+        "tableScrollWorks": true,
+        "inputReachable": true,
+        "submitReachable": true
+      },
+      "errors": []
+    },
+    {
+      "config": {
+        "name": "after-390",
+        "file": "index.html",
+        "width": 390
+      },
+      "assertions": {
+        "noPageOverflow": true,
+        "noClippedText": true,
+        "chineseLanguage": true,
+        "punctuationSample": true,
+        "originalUrlPreserved": true,
+        "originalTokenPreserved": true,
+        "missingAmountNotZero": true,
+        "noRuntimeErrors": true,
+        "keyboardAccess": true,
+        "titleSemanticGrouping": true
+      },
+      "pass": true,
+      "metrics": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "rootFontSize": "16px",
+        "lang": "zh-CN",
+        "clipping": [],
+        "titles": [
+          {
+            "id": null,
+            "text": "让真实内容，经得起变化。",
+            "lines": [
+              "让真实内容，经得起变化。"
+            ]
+          },
+          {
+            "id": "hero-title",
+            "text": "回信里，还有一个数字。",
+            "lines": [
+              "回信里，还有一个数字。"
+            ]
+          },
+          {
+            "id": "notice-title",
+            "text": "关于调整国庆假期期间跨区域订单配送与售后服务安排的通知",
+            "lines": [
+              "关于调整国庆假期期间跨区域订单配送与售",
+              "后服务安排的通知"
+            ]
+          },
+          {
+            "id": null,
+            "text": "提交前，再核对一次",
+            "lines": [
+              "提交前，再核对一次"
+            ]
+          },
+          {
+            "id": null,
+            "text": "随行好物",
+            "lines": [
+              "随行好物"
+            ]
+          },
+          {
+            "id": null,
+            "text": "轻量通勤双肩包 16 英寸电脑款（雾灰色／升级防泼水面料）",
+            "lines": [
+              "轻量通勤双肩包 16 英寸电脑款（雾灰",
+              "色／升级防泼水面料）"
+            ]
+          },
+          {
+            "id": null,
+            "text": "随行杯",
+            "lines": [
+              "随行杯"
+            ]
+          },
+          {
+            "id": null,
+            "text": "可折叠旅行收纳袋套装（含衣物袋、洗漱袋与数码配件袋）",
+            "lines": [
+              "可折叠旅行收纳袋套装（含衣物袋、洗",
+              "漱袋与数码配件袋）"
+            ]
+          },
+          {
+            "id": null,
+            "text": "待处理订单",
+            "lines": [
+              "待处理订单"
+            ]
+          },
+          {
+            "id": null,
+            "text": "修改收件信息",
+            "lines": [
+              "修改收件信息"
+            ]
+          },
+          {
+            "id": null,
+            "text": "配送说明",
+            "lines": [
+              "配送说明"
+            ]
+          }
+        ],
+        "punctuationLines": [
+          "她说：“请在提交前核对《服务协议》（2026 年修",
+          "订版），确认后再继续。”"
+        ],
+        "punctuationProblems": [],
+        "table": {
+          "width": 358,
+          "scrollWidth": 672,
+          "overflowX": "auto"
+        },
+        "url": "https://example.com/orders/2026/09/11/ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789?source=typography-test",
+        "token": "CN-20260911-AFTERSALES-0000000000000000123456789",
+        "missingAmount": "—",
+        "features": {
+          "balance": true,
+          "pretty": true
+        }
+      },
+      "keyboardChecks": {
+        "tableFocused": true,
+        "tableScrollWorks": true,
+        "inputReachable": true,
+        "submitReachable": true
+      },
+      "errors": []
+    },
+    {
+      "config": {
+        "name": "after-768",
+        "file": "index.html",
+        "width": 768
+      },
+      "assertions": {
+        "noPageOverflow": true,
+        "noClippedText": true,
+        "chineseLanguage": true,
+        "punctuationSample": true,
+        "originalUrlPreserved": true,
+        "originalTokenPreserved": true,
+        "missingAmountNotZero": true,
+        "noRuntimeErrors": true,
+        "keyboardAccess": true,
+        "titleSemanticGrouping": true
+      },
+      "pass": true,
+      "metrics": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "rootFontSize": "16px",
+        "lang": "zh-CN",
+        "clipping": [],
+        "titles": [
+          {
+            "id": null,
+            "text": "让真实内容，经得起变化。",
+            "lines": [
+              "让真实内容，经得起变化。"
+            ]
+          },
+          {
+            "id": "hero-title",
+            "text": "回信里，还有一个数字。",
+            "lines": [
+              "回信里，还有一个数字。"
+            ]
+          },
+          {
+            "id": "notice-title",
+            "text": "关于调整国庆假期期间跨区域订单配送与售后服务安排的通知",
+            "lines": [
+              "关于调整国庆假期期间跨区域订单配送与售后服务安排的通知"
+            ]
+          },
+          {
+            "id": null,
+            "text": "提交前，再核对一次",
+            "lines": [
+              "提交前，再核对一次"
+            ]
+          },
+          {
+            "id": null,
+            "text": "随行好物",
+            "lines": [
+              "随行好物"
+            ]
+          },
+          {
+            "id": null,
+            "text": "轻量通勤双肩包 16 英寸电脑款（雾灰色／升级防泼水面料）",
+            "lines": [
+              "轻量通勤双肩包 16 英寸电脑款（雾灰色／升级防泼水面料）"
+            ]
+          },
+          {
+            "id": null,
+            "text": "随行杯",
+            "lines": [
+              "随行杯"
+            ]
+          },
+          {
+            "id": null,
+            "text": "可折叠旅行收纳袋套装（含衣物袋、洗漱袋与数码配件袋）",
+            "lines": [
+              "可折叠旅行收纳袋套装（含衣物袋、洗漱袋与数码配件袋）"
+            ]
+          },
+          {
+            "id": null,
+            "text": "待处理订单",
+            "lines": [
+              "待处理订单"
+            ]
+          },
+          {
+            "id": null,
+            "text": "修改收件信息",
+            "lines": [
+              "修改收件信息"
+            ]
+          },
+          {
+            "id": null,
+            "text": "配送说明",
+            "lines": [
+              "配送说明"
+            ]
+          }
+        ],
+        "punctuationLines": [
+          "她说：“请在提交前核对《服务协议》（2026 年修订版），确认后再继续。”"
+        ],
+        "punctuationProblems": [],
+        "table": {
+          "width": 707,
+          "scrollWidth": 707,
+          "overflowX": "auto"
+        },
+        "url": "https://example.com/orders/2026/09/11/ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789?source=typography-test",
+        "token": "CN-20260911-AFTERSALES-0000000000000000123456789",
+        "missingAmount": "—",
+        "features": {
+          "balance": true,
+          "pretty": true
+        }
+      },
+      "keyboardChecks": {
+        "tableFocused": true,
+        "tableScrollWorks": true,
+        "inputReachable": true,
+        "submitReachable": true
+      },
+      "errors": []
+    },
+    {
+      "config": {
+        "name": "after-1440",
+        "file": "index.html",
+        "width": 1440
+      },
+      "assertions": {
+        "noPageOverflow": true,
+        "noClippedText": true,
+        "chineseLanguage": true,
+        "punctuationSample": true,
+        "originalUrlPreserved": true,
+        "originalTokenPreserved": true,
+        "missingAmountNotZero": true,
+        "noRuntimeErrors": true,
+        "keyboardAccess": true,
+        "titleSemanticGrouping": true
+      },
+      "pass": true,
+      "metrics": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "rootFontSize": "16px",
+        "lang": "zh-CN",
+        "clipping": [],
+        "titles": [
+          {
+            "id": null,
+            "text": "让真实内容，经得起变化。",
+            "lines": [
+              "让真实内容，经得起变化。"
+            ]
+          },
+          {
+            "id": "hero-title",
+            "text": "回信里，还有一个数字。",
+            "lines": [
+              "回信里，还有一个数字。"
+            ]
+          },
+          {
+            "id": "notice-title",
+            "text": "关于调整国庆假期期间跨区域订单配送与售后服务安排的通知",
+            "lines": [
+              "关于调整国庆假期期间跨区域订单配送与售后服务安排的通知"
+            ]
+          },
+          {
+            "id": null,
+            "text": "提交前，再核对一次",
+            "lines": [
+              "提交前，再核对一次"
+            ]
+          },
+          {
+            "id": null,
+            "text": "随行好物",
+            "lines": [
+              "随行好物"
+            ]
+          },
+          {
+            "id": null,
+            "text": "轻量通勤双肩包 16 英寸电脑款（雾灰色／升级防泼水面料）",
+            "lines": [
+              "轻量通勤双肩包 16 英寸电脑款",
+              "（雾灰色／升级防泼水面料）"
+            ]
+          },
+          {
+            "id": null,
+            "text": "随行杯",
+            "lines": [
+              "随行杯"
+            ]
+          },
+          {
+            "id": null,
+            "text": "可折叠旅行收纳袋套装（含衣物袋、洗漱袋与数码配件袋）",
+            "lines": [
+              "可折叠旅行收纳袋套装（含衣物",
+              "袋、洗漱袋与数码配件袋）"
+            ]
+          },
+          {
+            "id": null,
+            "text": "待处理订单",
+            "lines": [
+              "待处理订单"
+            ]
+          },
+          {
+            "id": null,
+            "text": "修改收件信息",
+            "lines": [
+              "修改收件信息"
+            ]
+          },
+          {
+            "id": null,
+            "text": "配送说明",
+            "lines": [
+              "配送说明"
+            ]
+          }
+        ],
+        "punctuationLines": [
+          "她说：“请在提交前核对《服务协议》（2026 年修订版），确认后再继续。”"
+        ],
+        "punctuationProblems": [],
+        "table": {
+          "width": 1056,
+          "scrollWidth": 1056,
+          "overflowX": "auto"
+        },
+        "url": "https://example.com/orders/2026/09/11/ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789?source=typography-test",
+        "token": "CN-20260911-AFTERSALES-0000000000000000123456789",
+        "missingAmount": "—",
+        "features": {
+          "balance": true,
+          "pretty": true
+        }
+      },
+      "keyboardChecks": {
+        "tableFocused": true,
+        "tableScrollWorks": true,
+        "inputReachable": true,
+        "submitReachable": true
+      },
+      "errors": []
+    },
+    {
+      "config": {
+        "name": "after-320-text200",
+        "file": "index.html",
+        "width": 320,
+        "textScale": 2
+      },
+      "assertions": {
+        "noPageOverflow": true,
+        "noClippedText": true,
+        "chineseLanguage": true,
+        "punctuationSample": true,
+        "originalUrlPreserved": true,
+        "originalTokenPreserved": true,
+        "missingAmountNotZero": true,
+        "noRuntimeErrors": true,
+        "keyboardAccess": true
+      },
+      "pass": true,
+      "metrics": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "rootFontSize": "32px",
+        "lang": "zh-CN",
+        "clipping": [],
+        "titles": [
+          {
+            "id": null,
+            "text": "让真实内容，经得起变化。",
+            "lines": [
+              "让真实内",
+              "容，经得",
+              "起变化。"
+            ]
+          },
+          {
+            "id": "hero-title",
+            "text": "回信里，还有一个数字。",
+            "lines": [
+              "回信里，",
+              "还有一个",
+              "数字。"
+            ]
+          },
+          {
+            "id": "notice-title",
+            "text": "关于调整国庆假期期间跨区域订单配送与售后服务安排的通知",
+            "lines": [
+              "关于调整国庆假",
+              "期期间跨区域订",
+              "单配送与售后服",
+              "务安排的通知"
+            ]
+          },
+          {
+            "id": null,
+            "text": "提交前，再核对一次",
+            "lines": [
+              "提交前，再",
+              "核对一次"
+            ]
+          },
+          {
+            "id": null,
+            "text": "随行好物",
+            "lines": [
+              "随行好物"
+            ]
+          },
+          {
+            "id": null,
+            "text": "轻量通勤双肩包 16 英寸电脑款（雾灰色／升级防泼水面料）",
+            "lines": [
+              "轻量通勤",
+              "双肩包 16",
+              "英寸电脑",
+              "款（雾灰",
+              "色／升级",
+              "防泼水面",
+              "料）"
+            ]
+          },
+          {
+            "id": null,
+            "text": "随行杯",
+            "lines": [
+              "随行杯"
+            ]
+          },
+          {
+            "id": null,
+            "text": "可折叠旅行收纳袋套装（含衣物袋、洗漱袋与数码配件袋）",
+            "lines": [
+              "可折叠旅",
+              "行收纳袋",
+              "套装（含",
+              "衣物袋、",
+              "洗漱袋与",
+              "数码配件",
+              "袋）"
+            ]
+          },
+          {
+            "id": null,
+            "text": "待处理订单",
+            "lines": [
+              "待处理订单"
+            ]
+          },
+          {
+            "id": null,
+            "text": "修改收件信息",
+            "lines": [
+              "修改收件信",
+              "息"
+            ]
+          },
+          {
+            "id": null,
+            "text": "配送说明",
+            "lines": [
+              "配送说明"
+            ]
+          }
+        ],
+        "punctuationLines": [
+          "她说：“请在提交",
+          "前核对《服务协",
+          "议》（2026 年修",
+          "订版），确认后再",
+          "继续。”"
+        ],
+        "punctuationProblems": [],
+        "table": {
+          "width": 256,
+          "scrollWidth": 1344,
+          "overflowX": "auto"
+        },
+        "url": "https://example.com/orders/2026/09/11/ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789?source=typography-test",
+        "token": "CN-20260911-AFTERSALES-0000000000000000123456789",
+        "missingAmount": "—",
+        "features": {
+          "balance": true,
+          "pretty": true
+        }
+      },
+      "keyboardChecks": {
+        "tableFocused": true,
+        "tableScrollWorks": true,
+        "inputReachable": true,
+        "submitReachable": true
+      },
+      "errors": []
+    },
+    {
+      "config": {
+        "name": "after-768-text200",
+        "file": "index.html",
+        "width": 768,
+        "textScale": 2
+      },
+      "assertions": {
+        "noPageOverflow": true,
+        "noClippedText": true,
+        "chineseLanguage": true,
+        "punctuationSample": true,
+        "originalUrlPreserved": true,
+        "originalTokenPreserved": true,
+        "missingAmountNotZero": true,
+        "noRuntimeErrors": true,
+        "keyboardAccess": true
+      },
+      "pass": true,
+      "metrics": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "rootFontSize": "32px",
+        "lang": "zh-CN",
+        "clipping": [],
+        "titles": [
+          {
+            "id": null,
+            "text": "让真实内容，经得起变化。",
+            "lines": [
+              "让真实内容，经得起变化。"
+            ]
+          },
+          {
+            "id": "hero-title",
+            "text": "回信里，还有一个数字。",
+            "lines": [
+              "回信里，还有一个数字。"
+            ]
+          },
+          {
+            "id": "notice-title",
+            "text": "关于调整国庆假期期间跨区域订单配送与售后服务安排的通知",
+            "lines": [
+              "关于调整国庆假期期间跨区域订单配送与售",
+              "后服务安排的通知"
+            ]
+          },
+          {
+            "id": null,
+            "text": "提交前，再核对一次",
+            "lines": [
+              "提交前，再核对一次"
+            ]
+          },
+          {
+            "id": null,
+            "text": "随行好物",
+            "lines": [
+              "随行好物"
+            ]
+          },
+          {
+            "id": null,
+            "text": "轻量通勤双肩包 16 英寸电脑款（雾灰色／升级防泼水面料）",
+            "lines": [
+              "轻量通勤双肩包 16 英寸电脑款（雾灰",
+              "色／升级防泼水面料）"
+            ]
+          },
+          {
+            "id": null,
+            "text": "随行杯",
+            "lines": [
+              "随行杯"
+            ]
+          },
+          {
+            "id": null,
+            "text": "可折叠旅行收纳袋套装（含衣物袋、洗漱袋与数码配件袋）",
+            "lines": [
+              "可折叠旅行收纳袋套装（含衣物袋、洗",
+              "漱袋与数码配件袋）"
+            ]
+          },
+          {
+            "id": null,
+            "text": "待处理订单",
+            "lines": [
+              "待处理订单"
+            ]
+          },
+          {
+            "id": null,
+            "text": "修改收件信息",
+            "lines": [
+              "修改收件信息"
+            ]
+          },
+          {
+            "id": null,
+            "text": "配送说明",
+            "lines": [
+              "配送说明"
+            ]
+          }
+        ],
+        "punctuationLines": [
+          "她说：“请在提交前核对《服务协议》（2026 年修",
+          "订版），确认后再继续。”"
+        ],
+        "punctuationProblems": [],
+        "table": {
+          "width": 704,
+          "scrollWidth": 1344,
+          "overflowX": "auto"
+        },
+        "url": "https://example.com/orders/2026/09/11/ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789?source=typography-test",
+        "token": "CN-20260911-AFTERSALES-0000000000000000123456789",
+        "missingAmount": "—",
+        "features": {
+          "balance": true,
+          "pretty": true
+        }
+      },
+      "keyboardChecks": {
+        "tableFocused": true,
+        "tableScrollWorks": true,
+        "inputReachable": true,
+        "submitReachable": true
+      },
+      "errors": []
+    },
+    {
+      "config": {
+        "name": "after-390-serif",
+        "file": "index.html",
+        "width": 390,
+        "serif": true
+      },
+      "assertions": {
+        "noPageOverflow": true,
+        "noClippedText": true,
+        "chineseLanguage": true,
+        "punctuationSample": true,
+        "originalUrlPreserved": true,
+        "originalTokenPreserved": true,
+        "missingAmountNotZero": true,
+        "noRuntimeErrors": true,
+        "keyboardAccess": true,
+        "titleSemanticGrouping": true
+      },
+      "pass": true,
+      "metrics": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "rootFontSize": "16px",
+        "lang": "zh-CN",
+        "clipping": [],
+        "titles": [
+          {
+            "id": null,
+            "text": "让真实内容，经得起变化。",
+            "lines": [
+              "让真实内容，经得起变化。"
+            ]
+          },
+          {
+            "id": "hero-title",
+            "text": "回信里，还有一个数字。",
+            "lines": [
+              "回信里，还有一个数字。"
+            ]
+          },
+          {
+            "id": "notice-title",
+            "text": "关于调整国庆假期期间跨区域订单配送与售后服务安排的通知",
+            "lines": [
+              "关于调整国庆假期期间跨区域订单配送与售",
+              "后服务安排的通知"
+            ]
+          },
+          {
+            "id": null,
+            "text": "提交前，再核对一次",
+            "lines": [
+              "提交前，再核对一次"
+            ]
+          },
+          {
+            "id": null,
+            "text": "随行好物",
+            "lines": [
+              "随行好物"
+            ]
+          },
+          {
+            "id": null,
+            "text": "轻量通勤双肩包 16 英寸电脑款（雾灰色／升级防泼水面料）",
+            "lines": [
+              "轻量通勤双肩包 16 英寸电脑款（雾灰",
+              "色／升级防泼水面料）"
+            ]
+          },
+          {
+            "id": null,
+            "text": "随行杯",
+            "lines": [
+              "随行杯"
+            ]
+          },
+          {
+            "id": null,
+            "text": "可折叠旅行收纳袋套装（含衣物袋、洗漱袋与数码配件袋）",
+            "lines": [
+              "可折叠旅行收纳袋套装（含衣物袋、洗",
+              "漱袋与数码配件袋）"
+            ]
+          },
+          {
+            "id": null,
+            "text": "待处理订单",
+            "lines": [
+              "待处理订单"
+            ]
+          },
+          {
+            "id": null,
+            "text": "修改收件信息",
+            "lines": [
+              "修改收件信息"
+            ]
+          },
+          {
+            "id": null,
+            "text": "配送说明",
+            "lines": [
+              "配送说明"
+            ]
+          }
+        ],
+        "punctuationLines": [
+          "她说：“请在提交前核对《服务协议》（2026 年修",
+          "订版），确认后再继续。”"
+        ],
+        "punctuationProblems": [],
+        "table": {
+          "width": 358,
+          "scrollWidth": 672,
+          "overflowX": "auto"
+        },
+        "url": "https://example.com/orders/2026/09/11/ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789?source=typography-test",
+        "token": "CN-20260911-AFTERSALES-0000000000000000123456789",
+        "missingAmount": "—",
+        "features": {
+          "balance": true,
+          "pretty": true
+        }
+      },
+      "keyboardChecks": {
+        "tableFocused": true,
+        "tableScrollWorks": true,
+        "inputReachable": true,
+        "submitReachable": true
+      },
+      "errors": []
+    },
+    {
+      "config": {
+        "name": "after-320-long",
+        "file": "index.html",
+        "width": 320,
+        "dynamic": "long"
+      },
+      "assertions": {
+        "noPageOverflow": true,
+        "noClippedText": true,
+        "chineseLanguage": true,
+        "punctuationSample": true,
+        "originalUrlPreserved": true,
+        "originalTokenPreserved": true,
+        "missingAmountNotZero": true,
+        "noRuntimeErrors": true,
+        "keyboardAccess": true
+      },
+      "pass": true,
+      "metrics": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "rootFontSize": "16px",
+        "lang": "zh-CN",
+        "clipping": [],
+        "titles": [
+          {
+            "id": null,
+            "text": "让真实内容，经得起变化。",
+            "lines": [
+              "让真实内容，",
+              "经得起变化。"
+            ]
+          },
+          {
+            "id": "hero-title",
+            "text": "请在提交跨区域配送申请之前核对收件机构名称与联系地址，避免影响订单的正常送达。",
+            "lines": [
+              "请在提交跨区域配",
+              "送申请之前核对收",
+              "件机构名称与联系",
+              "地址，避免影响订",
+              "单的正常送达。"
+            ]
+          },
+          {
+            "id": "notice-title",
+            "text": "关于调整国庆假期期间跨区域订单配送与售后服务安排的通知",
+            "lines": [
+              "关于调整国庆假期期间跨区域订单配",
+              "送与售后服务安排的通知"
+            ]
+          },
+          {
+            "id": null,
+            "text": "提交前，再核对一次",
+            "lines": [
+              "提交前，再核对一次"
+            ]
+          },
+          {
+            "id": null,
+            "text": "随行好物",
+            "lines": [
+              "随行好物"
+            ]
+          },
+          {
+            "id": null,
+            "text": "适用于长途旅行与城市通勤的多功能防泼水可扩容双肩包（支持十六英寸电脑、独立湿物仓与可拆卸收纳配件套装）",
+            "lines": [
+              "适用于长途旅行与城市通勤的",
+              "多功能防泼水可扩容双肩包",
+              "（支持十六英寸电脑、独立湿",
+              "物仓与可拆卸收纳配件套装）"
+            ]
+          },
+          {
+            "id": null,
+            "text": "随行杯",
+            "lines": [
+              "随行杯"
+            ]
+          },
+          {
+            "id": null,
+            "text": "可折叠旅行收纳袋套装（含衣物袋、洗漱袋与数码配件袋）",
+            "lines": [
+              "可折叠旅行收纳袋套装（含衣",
+              "物袋、洗漱袋与数码配件袋）"
+            ]
+          },
+          {
+            "id": null,
+            "text": "待处理订单",
+            "lines": [
+              "待处理订单"
+            ]
+          },
+          {
+            "id": null,
+            "text": "修改收件信息",
+            "lines": [
+              "修改收件信息"
+            ]
+          },
+          {
+            "id": null,
+            "text": "配送说明",
+            "lines": [
+              "配送说明"
+            ]
+          }
+        ],
+        "punctuationLines": [
+          "她说：“请在提交前核对《服务协议》",
+          "（2026 年修订版），确认后再继续。”"
+        ],
+        "punctuationProblems": [],
+        "table": {
+          "width": 288,
+          "scrollWidth": 672,
+          "overflowX": "auto"
+        },
+        "url": "https://example.com/orders/2026/09/11/ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789?source=typography-test",
+        "token": "CN-20260911-AFTERSALES-0000000000000000123456789",
+        "missingAmount": "—",
+        "features": {
+          "balance": true,
+          "pretty": true
+        }
+      },
+      "keyboardChecks": {
+        "tableFocused": true,
+        "tableScrollWorks": true,
+        "inputReachable": true,
+        "submitReachable": true
+      },
+      "errors": []
+    },
+    {
+      "config": {
+        "name": "after-320-short",
+        "file": "index.html",
+        "width": 320,
+        "dynamic": "short"
+      },
+      "assertions": {
+        "noPageOverflow": true,
+        "noClippedText": true,
+        "chineseLanguage": true,
+        "punctuationSample": true,
+        "originalUrlPreserved": true,
+        "originalTokenPreserved": true,
+        "missingAmountNotZero": true,
+        "noRuntimeErrors": true,
+        "keyboardAccess": true
+      },
+      "pass": true,
+      "metrics": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "rootFontSize": "16px",
+        "lang": "zh-CN",
+        "clipping": [],
+        "titles": [
+          {
+            "id": null,
+            "text": "让真实内容，经得起变化。",
+            "lines": [
+              "让真实内容，",
+              "经得起变化。"
+            ]
+          },
+          {
+            "id": "hero-title",
+            "text": "已完成",
+            "lines": [
+              "已完成"
+            ]
+          },
+          {
+            "id": "notice-title",
+            "text": "关于调整国庆假期期间跨区域订单配送与售后服务安排的通知",
+            "lines": [
+              "关于调整国庆假期期间跨区域订单配",
+              "送与售后服务安排的通知"
+            ]
+          },
+          {
+            "id": null,
+            "text": "提交前，再核对一次",
+            "lines": [
+              "提交前，再核对一次"
+            ]
+          },
+          {
+            "id": null,
+            "text": "随行好物",
+            "lines": [
+              "随行好物"
+            ]
+          },
+          {
+            "id": null,
+            "text": "杯",
+            "lines": [
+              "杯"
+            ]
+          },
+          {
+            "id": null,
+            "text": "随行杯",
+            "lines": [
+              "随行杯"
+            ]
+          },
+          {
+            "id": null,
+            "text": "可折叠旅行收纳袋套装（含衣物袋、洗漱袋与数码配件袋）",
+            "lines": [
+              "可折叠旅行收纳袋套装（含衣",
+              "物袋、洗漱袋与数码配件袋）"
+            ]
+          },
+          {
+            "id": null,
+            "text": "待处理订单",
+            "lines": [
+              "待处理订单"
+            ]
+          },
+          {
+            "id": null,
+            "text": "修改收件信息",
+            "lines": [
+              "修改收件信息"
+            ]
+          },
+          {
+            "id": null,
+            "text": "配送说明",
+            "lines": [
+              "配送说明"
+            ]
+          }
+        ],
+        "punctuationLines": [
+          "她说：“请在提交前核对《服务协议》",
+          "（2026 年修订版），确认后再继续。”"
+        ],
+        "punctuationProblems": [],
+        "table": {
+          "width": 288,
+          "scrollWidth": 672,
+          "overflowX": "auto"
+        },
+        "url": "https://example.com/orders/2026/09/11/ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789?source=typography-test",
+        "token": "CN-20260911-AFTERSALES-0000000000000000123456789",
+        "missingAmount": "—",
+        "features": {
+          "balance": true,
+          "pretty": true
+        }
+      },
+      "keyboardChecks": {
+        "tableFocused": true,
+        "tableScrollWorks": true,
+        "inputReachable": true,
+        "submitReachable": true
+      },
+      "errors": []
+    }
+  ]
+}
