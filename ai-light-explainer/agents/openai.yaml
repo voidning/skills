@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 轻科普系列"
+  short_description: "沿用暖白橙色线框视觉，制作口语化 AI 科普图文、动画视频与发布文案"
+  default_prompt: "使用 $ai-light-explainer，沿用参考风格讲解 Agent 的结构，准备图文、视频和各自发布文案。"
