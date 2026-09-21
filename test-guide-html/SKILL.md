@@ -3,7 +3,7 @@ name: test-guide-html
 description: Generate a clean, OpenAI-styled single-file HTML test guide for QA testers. Use when the user asks for a test guide, test plan HTML, testing instructions document, or QA verification guide in Chinese.
 metadata:
   author: agent
-  version: "1.1.0"
+  version: "1.2.0"
   language: zh-CN
   related-skills:
     - openai-aesthetic
@@ -43,6 +43,8 @@ Always output a single self-contained `.html` file with:
    - Body: 16px / weight 400 / line-height 1.6 / color #181818
    - Meta label: 13px / weight 500 / uppercase / color #8f8f8f
    - Font stack: `"OpenAI Sans", Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif`
+   - Accent (at most one): links `#3b5bdb`; small monoline icons may also use it
+   - Status colors (text or small dots only, never backgrounds): success `#2f9e44`, error `#d64545`, warning `#e8890c`
    - Cards/callouts: #f9f9f9 background, 8px radius, 16–20px padding
    - Tables: hairline borders, hover state #f9f9f9
    - Checklists: `☐` prefix, no native checkbox inputs
@@ -85,6 +87,8 @@ If `openai-aesthetic` is not available, fall back to the tokens above.
 - Do not make it look like a Jira ticket or Excel sheet.
 - Do not use localhost-specific URLs unless explicitly requested.
 - Do not use colored left borders on callouts.
+- Do not use more than one accent color, and never as large-area fills.
+- Do not reproduce OpenAI's wordmark or Blossom icon.
 
 ## Worked Mini-Example
 
@@ -105,6 +109,7 @@ If `openai-aesthetic` is not available, fall back to the tokens above.
       padding: 72px 32px;
     }
     h1 { font-size: 28px; font-weight: 600; }
+    a { color: #3b5bdb; }
     h2 { font-size: 22px; font-weight: 600; border-bottom: 1px solid #ededed; padding-bottom: 10px; }
     .callout { background: #f9f9f9; border-radius: 8px; padding: 16px 20px; }
     .checklist { list-style: none; margin-left: 0; }

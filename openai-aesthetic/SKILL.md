@@ -3,7 +3,7 @@ name: openai-aesthetic
 description: Apply the OpenAI visual design language to web pages, UI components, and documents. Use when asked to "make it look like OpenAI", "apply OpenAI design", "OpenAI style", or similar.
 metadata:
   author: agent
-  version: "1.1.0"
+  version: "1.2.0"
   sources:
     - https://styles.refero.design/style/dc541737-8bf2-4b31-b729-0352f696e82f
     - https://styles.refero.design/style/5c94c49f-0612-4261-842c-e1d501f3e13d
@@ -15,7 +15,7 @@ metadata:
 
 # OpenAI Aesthetic
 
-Apply the OpenAI visual design language. This is a monochrome-first, editorial, restrained system. Trust whitespace and typography; avoid decoration.
+Apply the OpenAI visual design language. This is a monochrome-first, editorial, restrained system. Trust whitespace and typography; avoid decoration. One muted accent color is permitted — use it sparingly.
 
 ## When to Use
 
@@ -35,19 +35,19 @@ When triggered:
    - Developers/docs: smaller compressed scale, 8px card radius, #f9f9f9 cards, 900–1200px max-width.
 2. Apply the color tokens and type scale below.
 3. Build components using the prescribed radii and borders.
-4. Never introduce accent colors, gradients, or heavy shadows.
+4. Use at most one accent color (see Accent & Graphics). Never introduce gradients or heavy shadows.
 5. Output the result (CSS snippet, HTML file, or component code) and mention that it follows OpenAI aesthetic.
 
 ## Design Philosophy
 
-- **Minimalism:** pure white canvas, near-black type, almost no color.
+- **Minimalism:** pure white canvas, near-black type, at most one accent color.
 - **Restraint:** the only filled black element is the single primary button.
 - **Editorial Canvas:** typography and whitespace do the work.
 - **Geometric signature:** pills (9999px radius) for interactive elements; 6–8px radius for cards.
 
 ## Color Tokens
 
-Use these exact values. Do not introduce accent colors.
+Use these exact values. Do not introduce colors beyond the single accent below.
 
 | Name | Value | Role |
 |------|-------|------|
@@ -62,6 +62,18 @@ Use these exact values. Do not introduce accent colors.
 | Mist Gray | `#ededed` | borders, dividers |
 | Hairline | `rgba(0,0,0,0.12)` | all borders |
 | Whisper | `rgba(0,0,0,0.04)` | hover tints |
+| Accent Blue | `#3b5bdb` | links, focus rings, small monoline icons — the only color allowed |
+| Accent Tint | `rgba(59,91,219,0.06)` | rare subtle highlight background (e.g., active link) |
+
+## Accent & Graphics
+
+The base stays monochrome. Color and graphics are seasoning, not the dish.
+
+- Exactly **one** accent color: `#3b5bdb`. Use it only for text links, focus rings, small monoline icons, and tiny status dots.
+- Never use the accent as a large-area fill, on the primary button (stays black), or for headings.
+- Graphics are limited to thin monoline icons and simple geometric marks (dots, rings, hairline rules).
+- **Never** reproduce OpenAI's wordmark, the Blossom icon, or anything that imitates them.
+- No gradients, no decorative photos or illustrations.
 
 ## Typography
 
@@ -141,11 +153,14 @@ No colored left border. Use a light surface or a subtle hairline border.
 - Use `rgba(0,0,0,0.12)` for all borders.
 - Use 9999px radius for pills, tags, buttons, inputs.
 - Use 8px radius for cards (6px only for consumer marketing cards).
+- Use `#3b5bdb` only for links, focus rings, and small monoline icons.
 - Use weight changes for hierarchy.
 - Trust whitespace over dividers.
 
 ### Don't
-- Don't introduce accent colors or gradients.
+- Don't introduce a second accent color, and never use gradients.
+- Don't use the accent as large-area fills or on the primary button.
+- Don't reproduce OpenAI's wordmark or the Blossom icon.
 - Don't use shadows on cards.
 - Don't use weight 700/800.
 - Don't use colored left borders for alerts.
