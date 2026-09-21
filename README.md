@@ -1,6 +1,6 @@
 # Skills
 
-个人维护的 AI Agent 技能集合，涵盖独立评审、项目约定整理、中文网页排版和 AI 轻科普内容制作。
+个人维护的 AI Agent 技能集合，涵盖独立评审、项目约定整理、中文网页排版、AI 轻科普内容制作、OpenAI 视觉风格应用和测试指南 HTML 生成。
 
 ## 技能目录
 
@@ -10,6 +10,8 @@
 | [distill-agents-md](distill-agents-md/SKILL.md) | **规则提炼**：筛选长期约定，去重后提出 `AGENTS.md` 修改建议。 |
 | [chinese-web-typography](chinese-web-typography/SKILL.md) | **中文排版**：按内容选择排版策略，检查不同屏幕下的实际渲染。 |
 | [ai-light-explainer](ai-light-explainer/SKILL.md) | **AI 轻科普**：复用暖白橙色线框风格，制作中文图文、动画与各自发布文案，包含可编辑工程和完整参考素材。 |
+| [openai-aesthetic](openai-aesthetic/SKILL.md) | **OpenAI 风格**：应用 OpenAI  monochrome-first 视觉语言到网页、组件和文档。 |
+| [test-guide-html](test-guide-html/SKILL.md) | **测试指南生成**：生成单文件 HTML 测试指南，默认 OpenAI 风格、中文输出。 |
 
 ## 安装
 
