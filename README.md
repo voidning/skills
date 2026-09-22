@@ -1,11 +1,12 @@
 # Skills
 
-个人维护的 AI Agent 技能集合，涵盖独立评审、项目约定整理、中文网页排版、AI 轻科普内容制作、OpenAI/Anthropic 视觉风格应用和测试指南 HTML 生成。
+个人维护的 AI Agent 技能集合，涵盖按需协作、独立评审、项目约定整理、中文网页排版、AI 轻科普内容制作、OpenAI/Anthropic 视觉风格应用和测试指南 HTML 生成。
 
 ## 技能目录
 
 | 技能 | 用途 |
 | --- | --- |
+| [rapport](rapport/SKILL.md) | **默契**：明确调用后，按任务阶段加载理解、调研、创意、决策、视觉、制作、内容、修改与复盘方法，复用已确认决定，减少重复沟通。通用、自包含，不依赖个人历史或指定外部技能。 |
 | [blind-review](blind-review/SKILL.md) | **盲审**：由未参与制作的 Agent 独立评审，隔离制作讨论和作者自评。 |
 | [distill-agents-md](distill-agents-md/SKILL.md) | **规则提炼**：筛选长期约定，去重后提出 `AGENTS.md` 修改建议。 |
 | [chinese-web-typography](chinese-web-typography/SKILL.md) | **中文排版**：按内容选择排版策略，检查不同屏幕下的实际渲染。 |
@@ -53,8 +54,18 @@ npx skills@latest update
 
 具体要求见各技能的 `SKILL.md`。涉及子 Agent 或独立任务的技能，需要客户端支持相应能力。
 
+使用「默契」时直接描述需求，无需手动选择模块：
+
+```text
+用 $rapport 调研这个模型，选一个可行方向并做出演示。
+```
+
+`rapport` 在 Codex 中设置为仅明确调用启用；简单需求直接处理，缺少关键决定时才提问。迁移时复制完整技能文件夹，具体任务的项目文件和素材另行提供。详见[使用与迁移说明](docs/rapport.md)。
+
 ## 说明与测试
 
+- [默契：使用与迁移说明](docs/rapport.md)
+- [默契：测试案例](tests/rapport/cases.json) · [验收方法与边界](tests/rapport/acceptance.md)
 - [中文网页排版：使用说明](docs/chinese-web-typography.md)
 - [中文网页排版：测试案例、结果与复测方法](tests/chinese-web-typography/TEST_REPORT.md)
 
